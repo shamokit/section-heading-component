@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { getHeadingContext } from './Section.svelte';
 
-	let level = getHeadingContext();
+	const level: number = getHeadingContext();
 	$: tag = level ? `h${level}` : 'h2';
 </script>
 

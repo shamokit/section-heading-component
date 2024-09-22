@@ -7,7 +7,7 @@
 </script>
 
 <script>
-	let level = getHeadingContext();
+	const level = getHeadingContext();
 	$: setHeadingContext(level ? level + 1 : 2);
 </script>
 
