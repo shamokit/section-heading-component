@@ -1,0 +1,21 @@
+{
+	"parser": {
+		".svelte$": "@markuplint/svelte-parser",
+		".html$": "@markuplint/svelte-parser/kit"
+	},
+	"specs": {
+		".svelte$": "@markuplint/svelte-spec"
+	},
+	"rules": {
+		"disallowed-element": [
+			"Heading"
+		]
+	},
+	"overrides": {
+		"./src/lib/Section.svelte": {
+			"rules": {
+				"disallowed-element": []
+			}
+		}
+	}
+}

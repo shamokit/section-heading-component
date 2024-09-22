@@ -20,7 +20,7 @@ export default [
         {
           elements: ['h2', 'h3', 'h4', 'h5', 'h6'],
           message:
-            'HeadingコンポーネントをSectionコンポーネント配下で使用してください。',
+            'Sectionコンポーネントのslot="heading"を使用してください。',
         },
       ],
     },
